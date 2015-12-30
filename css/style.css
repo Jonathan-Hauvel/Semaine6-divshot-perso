@@ -1,0 +1,218 @@
+/* GENERAL */
+head, body {
+	height:100%;
+	background-color: #333;
+	overflow-x: hidden;
+}
+
+
+/* HEADER */
+header {
+	background-color: #37bbd2;
+	height: 100px;
+	margin-bottom: 2.5px;
+}
+
+.title {
+	padding: 25px;
+}
+
+.img-header {
+	width: 60px;
+	float: left;
+}
+
+h1 {
+	display: inline-block;
+	color: #FFF;
+	font-size: 1.6em;
+}
+
+.left {
+	float: left;
+	margin-left: 15px;
+}
+
+.right {
+	float: right;
+	margin-right: 15px;
+}
+
+
+/* CONTAINER-FLUID */
+
+	.container-fluid {
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+
+
+/* MARGIN & PADDING */
+	
+	.border-left {
+		border-left: 5px solid black;
+	}
+	
+
+/* VIGNETTES */
+
+	/* Positionnement */
+	.big {
+		height: 440px;
+		position: relative;
+		display: flex;
+		align-items: center;
+		padding-bottom: 60px;
+		margin: 2.5px;
+	}
+
+	.little {
+		height:220px;
+		position: relative;
+		display: flex;
+		align-items: center;
+		padding-bottom: 60px;
+		margin: 2.5px;
+	}
+
+	.little-special {
+		height:217.5px;
+		position: relative;
+		display: flex;
+		align-items: center;
+		padding-bottom: 60px;
+		margin: 2.5px;
+	}
+
+	/* Images */
+	.img-center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* Background */
+	.white-grey {
+		background-color: #f5f5f5;
+	}
+
+	.red {
+		background-color: #fa8a7e;
+	}
+
+	.violet {
+		background-color: #b483ff;
+	}
+
+	.green {
+		background-color: #b7f6c9;	
+	}
+
+	.yellow {
+		background-color: #fbff86;	
+	}
+
+	.blue {
+		background-color: #7efeff;	
+	}
+
+/* Liens */
+
+	/* Position */
+	.link {
+		position: absolute;
+		left:0;
+		bottom:0;
+		height: 60px;
+		width: 100%;
+	}	
+
+	/* Text */
+	p {
+		display: inline-block;
+		color: #FFF;
+		font-size: 1.1em;
+		margin: 0;
+		padding: 20px;
+		font-weight: bold;
+	}
+
+	.text-grey {
+		color: #3f4042;
+  		font-weight: 600;
+	}
+
+	/* Arrows */
+	.arrow {
+		display: inline-block;
+  		float: right;
+  		margin-right: 15px;
+  		margin-top: 24px;
+  		width: 15px;
+  		height: 15px;
+	}
+
+	.arrow-white-big {
+		background: url("http://sebastienwozny.com/Simplon/Semaine6/Divshot/img/arrow01.png");
+		background-size: 15px 15px;
+	}
+
+	.arrow-white-little {
+		background: url("http://sebastienwozny.com/Simplon/Semaine6/Divshot/img/arrow02.png");
+		background-size: 15px 15px;
+	}
+
+	.arrow-grey {
+		background: url("http://sebastienwozny.com/Simplon/Semaine6/Divshot/img/arrow01grey.png");
+		background-size: 15px 15px;
+	}
+
+
+	/* Couleurs */
+	.white-grey-dark {
+		background-color: #999999;
+	}
+
+	.red-dark {
+		background-color: #f8504d;
+	}
+
+	.violet-dark {
+		background-color: #7f53c6;
+	}
+
+	.green-dark {
+		background-color: #35eab5;	
+	}
+
+	.yellow-dark {
+		background-color: #fbed1a;	
+	}
+
+	.blue-dark {
+		background-color: #3ea8f6;	
+	}
+
+	/* Dynamique */
+	.link:hover p {
+		color: #3f4042;
+	}
+
+	.link:hover p.text-grey {
+		color:#FFF;
+	}
+
+	.link:hover .arrow-white-big {
+		background: url("http://sebastienwozny.com/Simplon/Semaine6/Divshot/img/arrow01grey.png");
+		background-size: 15px 15px;
+	}
+
+	.link:hover .arrow-white-little {
+		background: url("http://sebastienwozny.com/Simplon/Semaine6/Divshot/img/arrow02grey.png");
+		background-size: 15px 15px;
+	}
+
+	.link:hover .arrow-grey {
+		background: url("http://sebastienwozny.com/Simplon/Semaine6/Divshot/img/arrow01.png");
+		background-size: 15px 15px;
+	}
